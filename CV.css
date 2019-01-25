@@ -1,0 +1,161 @@
+body {
+ background-color: #000000;
+}
+
+h1 {
+	color:black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	border-bottom: 3px solid black;
+}
+
+h2 {
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3vw;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	color: #00a196;
+	font-family: 'Raleway', sans-serif;
+	font-size: 6.5vw;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h4 {
+	color: black;
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold;
+	margin-bottom: -20px;
+	margin-top: 20px;
+}
+p {
+  color: black;
+  font-family: 'Source Sans Pro';
+	font-size: 18px;
+  line-height: 25px;
+  }
+
+ul {
+	color: black;
+	font-family: 'Source Sans Pro';
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.bloque {
+	background: #FFFFFF;
+	margin-bottom: 10px;
+	padding: 20px;
+	border-radius: 10px;
+	}
+
+/* La clase "columna" tiene el atributo FLOAT: ¡Búsquenlo en Google! 🕵🏽‍♂️ ------- */
+.columna {
+	float: left;
+	margin-top: 20px;
+}
+
+.menu {
+	text-align: center;
+	width: 15%;
+	margin-left: 13%;
+	margin-right: 2%;
+}
+
+.menu img {
+	width: 100%;
+	border-radius: 100%;
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+}
+
+.secciones {
+	padding: 0;
+	list-style: none;
+}
+
+.secciones li{
+	background: #333333;
+	font-family: 'Source Sans Pro';
+	color: white;
+	margin-top: 10px;
+	border-radius: 10px;
+	font-size: 1.4vw;
+	text-decoration: none;
+
+}
+
+.contenido {
+	width: 57%;
+	margin-right: 13%;
+}
+
+/* La clase "items" tiene el atributo DISPLAY:FLEX + FLEX-WRAP ¡Búsquenlo en Google! 🕵🏽‍♂️ ------- */
+/* Más info: https://www.w3schools.com/css/css3_flexbox.asp */
+.items {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.items  img{
+	width: 12vw;
+	height: 12vw;
+}
+
+.item-con-texto {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 12px;
+}
+
+.item-con-texto img {
+	margin-bottom: -30px;
+}
+
+.redes{
+	list-style: none;
+	color: white;
+	padding: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.contacto {
+	list-style: none;
+	padding: 0px;
+}
+
+.redes img {
+	width: 30px;
+	height: 30px;
+}
+
+.volver {
+	color:#bfbfbf;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	border-top: 2px solid #bfbfbf;
+	}
+
+.volver a {
+	color: #bfbfbf;
+	text-decoration: none;
+	}
+
+.icono-color {
+	color: #00a196;
+}
